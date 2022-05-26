@@ -50,7 +50,7 @@ Below is a sample of that information:
     </tr>
     <tr>
       <td><b>Company: </b></td>
-      <td><span id='company'>${canvasRequest.context.organizationContext.name}</span></td>
+      <td><span id='company'>${canvasRequest.context.organizationContext.name} </span></td>
     </tr>
     <c:if test="${!empty canvasRequest.context.environmentContext.record.Id}" >
       <tr>
