@@ -57,5 +57,9 @@ Below is a sample of that information:
         <td colspan="2">You are currently viewing <b>${canvasRequest.context.environmentContext.record.attributes.type} ${canvasRequest.context.environmentContext.record.Id}</b></td>
       </tr>
     </c:if>
+    <tr>
+      <td><b>Full JSON: </b></td>
+      <td><span id='company'>${canvasRequest.context}</span></td>
+    </tr>
     
 </table>
