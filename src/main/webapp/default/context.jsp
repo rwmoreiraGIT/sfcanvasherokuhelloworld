@@ -59,7 +59,7 @@ Below is a sample of that information:
     </c:if>
     <tr>
       <td><b>Full JSON: </b></td>
-      <td><span id='company'>${canvasRequest.context}</span></td>
+      <td><span id='company'><pre>${canvasRequest.context}</pre></span></td>
     </tr>
     
 </table>
