@@ -58,8 +58,8 @@ Below is a sample of that information:
       </tr>
     </c:if>
     <tr>
-      <td><b>Canvas Request JSON: 2 </b></td>
-      <td><span id='company'><textarea>${canvasRequest}</textarea></span></td>
+      <td><b>Canvas Request JSON: </b></td>
+      <td><span id='company'><textarea>${canvasRequest.context}</textarea></span></td>
     </tr>
     
 </table>
