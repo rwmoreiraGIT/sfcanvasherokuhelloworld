@@ -59,21 +59,12 @@ Below is a sample of that information:
     </c:if>
     <tr>
       <td><b>Canvas Request JSON: </b></td>
-      <td><span id='company'>${canvasRequestJson}</span></td>
+      <td><span id='company'><textarea>${canvasRequestJson}</textarea></span></td>
+    </tr>
+    <tr>
+      <td><b>Canvas Request: </b></td>
+      <td><span id='company'><textarea>${canvasRequest.context}</textarea></span></td>
     </tr>
     
 </table>
 
-
-
-Canvas Context:
-	User Context:
-		0054W00000CiHy3QAF,rmoreira@adusa.com.teamdevp2,Renan,Moreira,rmoreira@us.ibm.com,Renan Moreira,en_US,en_US,America/New_York,00e4W000002U0Ag,null,STANDARD,USD,false,https://adusa--teamdevp2--c.documentforce.com/profilephoto/005/F,https://adusa--teamdevp2--c.documentforce.com/profilephoto/005/T,true,null,null,null,
-	Org Context:
-		00D8J0000008j8cUAA,RBS,false,USD,null
-	Environment Context:
-		https://adusa--teamdevp2.lightning.force.com/lightning/n/PDL_Webbase, Aura, Theme3,(w:800px,h:900px,mw:1000px,mh:2000px,cw:1896px,ch:821px),{Azure_AD_UPN__c=nvrxm31@us.royalahold.net},55.0 - SUMMER
-	Link Context:
-		https://adusa--teamdevp2.my.salesforce.com, /services/Soap/c/55.0/00D8J0000008j8c, /services/Soap/m/55.0/00D8J0000008j8c, /services/Soap/u/55.0/00D8J0000008j8c, /services/data/v55.0/, /services/data/v55.0/sobjects/, /services/data/v55.0/search/, /services/data/v55.0/query/, /services/data/v55.0/recent/, /0054W00000CiHy3QAF, /services/data/v31.0/chatter/feeds, /services/data/v55.0/chatter/groups, /services/data/v55.0/chatter/users, /services/data/v31.0/chatter/feed-items
-App Context:
-		,PDL_Webbase_Canvas_App,06P8J0000004CM2,1.0,SIGNED_REQUEST,09H8J00000000Hh,https://sfcanvasherokuhelloworld.herokuapp.com/canvas,None
